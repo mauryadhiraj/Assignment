@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FF5722"
+    tools:context=".MainActivity2">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/Android"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:layout_width="match_parent"
+        android:backgroundTint="#4CAF50"
+        app:cardCornerRadius="@android:dimen/app_icon_size"
+        android:layout_height="98dp"
+        tools:ignore="DuplicateIds">
+
+        <TextView
+            android:id="@+id/textViewAndroid"
+            android:textColor="#E91E63"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:text="ANDROID" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/Java"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:layout_width="match_parent"
+        android:backgroundTint="#4CAF50"
+        app:cardCornerRadius="@android:dimen/app_icon_size"
+        android:layout_height="98dp" >
+
+        <TextView
+            android:id="@+id/textViewjava"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textSize="30dp"
+            android:textColor="#E91E63"
+            android:gravity="center"
+            android:text="JAVA" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/Python"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:layout_width="match_parent"
+        android:backgroundTint="#4CAF50"
+        app:cardCornerRadius="@android:dimen/app_icon_size"
+        android:layout_height="98dp" >
+
+        <TextView
+            android:id="@+id/textViewPython"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:textColor="#E91E63"
+            android:text="Python" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/Php"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:layout_width="match_parent"
+        android:backgroundTint="#4CAF50"
+        app:cardCornerRadius="@android:dimen/app_icon_size"
+        android:layout_height="98dp" >
+
+        <TextView
+            android:id="@+id/textViewPhp"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:textColor="#E91E63"
+            android:text="PHP" />
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="151dp"
+        android:layout_height="62dp"
+        android:text="Call us"
+        android:textColor="#FFC107"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="100dp"
+        android:textSize="20dp" />
+</LinearLayout>
